@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Translator: Training Games</title>
+    <meta name="description" content="Your ultimate dog companion app. Voice translation, 96 training lessons, puzzles, video call pranks, dog whistle and sound board.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #FFF5F2;
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #FF6B5B, #FF8F4B);
+            padding: 40px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            flex: 1;
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        .card h2 {
+            font-size: 20px;
+            color: #FF6B5B;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            font-size: 15px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        .feature {
+            background: #FFF0ED;
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+        }
+
+        .feature .icon {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        .feature h3 {
+            font-size: 14px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .feature p {
+            font-size: 13px;
+            color: #777;
+            margin-top: 4px;
+        }
+
+        .app-store-badge {
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .app-store-badge img {
+            height: 50px;
+        }
+
+        .links {
+            display: flex;
+            gap: 16px;
+            margin-top: 16px;
+            flex-wrap: wrap;
+        }
+
+        .links a {
+            color: #FF6B5B;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            padding: 10px 20px;
+            background: #FFF0ED;
+            border-radius: 8px;
+            transition: background 0.2s;
+        }
+
+        .links a:hover {
+            background: #FFE0DA;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+            color: #999;
+        }
+
+        @media (max-width: 500px) {
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Dog Translator: Training Games</h1>
+        <p>Your ultimate dog companion app</p>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2>About the App</h2>
+            <p>Dog Translator: Training Games is your all-in-one dog companion. Communicate with your furry friend through voice translation, train with 96 expert lessons, enjoy fun puzzles, make hilarious video call pranks, and use the dog whistle and sound board.</p>
+
+            <div class="features">
+                <div class="feature">
+                    <div class="icon">🎙️</div>
+                    <h3>Voice Translation</h3>
+                    <p>Talk to your dog</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">🎓</div>
+                    <h3>96 Training Lessons</h3>
+                    <p>Expert-guided training</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">🧩</div>
+                    <h3>Jigsaw Puzzles</h3>
+                    <p>Fun dog puzzles</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">📞</div>
+                    <h3>Video Call Pranks</h3>
+                    <p>Hilarious dog calls</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">🔊</div>
+                    <h3>Sound Board</h3>
+                    <p>Dog sounds collection</p>
+                </div>
+                <div class="feature">
+                    <div class="icon">📣</div>
+                    <h3>Dog Whistle</h3>
+                    <p>Training whistle tool</p>
+                </div>
+            </div>
+
+            <a class="app-store-badge" href="https://apps.apple.com/app/dog-translator-training-games/id6742713381" target="_blank" rel="noopener">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Support</h2>
+            <p>Have questions or feedback? We'd love to hear from you!</p>
+            <p style="margin-top: 12px;">
+                <a href="mailto:theweekend973@gmail.com" style="color: #FF6B5B; font-weight: 600; text-decoration: none;">theweekend973@gmail.com</a>
+            </p>
+            <p style="margin-top: 8px; font-size: 13px; color: #999;">We typically respond within 24-48 hours.</p>
+        </div>
+
+        <div class="card">
+            <h2>Legal</h2>
+            <div class="links">
+                <a href="/dogtalk-privacy/">Privacy Policy</a>
+                <a href="/dogtalk-privacy/terms-of-use.html">Terms of Use</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2026 Dog Translate NYC, LLC. All rights reserved.
+    </div>
+</body>
+</html>
